@@ -1,69 +1,35 @@
-# Wearables E-Commerce Project
 
-You will make use of _everything_ that you have learned thus far in the bootcamp to build an e-commerce app that will showcase all of the provided _wearables_ items.
+# Project Title
 
-The stack is React.Js, Node.Js, and styled-components.
+Wearless
 
-Your node server should be RESTful and follow REST principles, at least to the extent we learned during the bootcamp.
+# Project description
 
----
+Created by a four-person team, this was a 4-day project as part of the Concordia Web Development bootcamp. We were given a .json file of wearable technology items (names, prices, and thumbnails), and instructions that the MVP had to allow users to browse and purchase those items, updating their stock in the backend via a RESTful server. Everything else was up to us, provided we were bound to the MERN stack and didn't use any extra libraries/dependencies.
 
-**✋ You CANNOT use any external UI libraries, including, but not limited to, Material UI, Bootstrap to style your project!**
+# Landing Page
 
----
 
-## Getting Started
 
-<img src="./server/assets/software-dev-path.jpg" style="width: 100%;" />
+[Picture1.png](https://postimg.cc/56MPjqxD)
 
-You have your assignment and your team. What should you do first? This will vary for every team, and even every team member.
+Landing page has different navigation links to shop from. Products, Brands, Categories and New Arrivals.
 
-**The important thing is to NOT just jump in and start coding!**
+# Signin page
 
-There probably shouldn't be any coding until very near the end of the first day.
+[![Picture3.png](https://i.postimg.cc/pdKmDQPq/Picture3.png)](https://postimg.cc/R3VCmH6H)
 
-## Meet your Product Manager!
+Username and passwords are stored in mongodb and is validated against when the person tries to sign in.
+Once the person is successfully signed it, Add to cart button enables.
 
-Each team has been assigned a product manager. This person is in charge of answering questions, guiding you and basically preventing everything from falling apart!
+[![Picture5.png](https://i.postimg.cc/nL1HF3Fb/Picture5.png)](https://postimg.cc/DW8V5d4B)
 
-This person should be present for some of your team meetings, but not all. PMs are super busy people and have multiple projects/people to manage. 😉
+# Shopping cart
 
-## Planning
+[![Picture6.png](https://i.postimg.cc/j55rsK3P/Picture6.png)](https://postimg.cc/4Kr0PCgx)
 
-1. You will break into groups (with your assigned PM.)
-2. Your PM will answer any initial questions, and give you more information, as required.
-3. Breakout into a separate meeting with just your team. _Your PM will bounce from team to team to make sure you're on track._
-4. Time to use the [Kickoff Meeting Agenda](__documentation/KICKOFF_MEETING_AGENDA.md)
+When a product is added or removed from the cart, number of available quantities is updated in the DB.
 
-### First team meeting
+# Order Summary page
 
-It could also be a good/fun idea to give yourselves an original team name. :)
-
-Your first team meeting should start with the [Kickoff Meeting Agenda](__documentation/KICKOFF_MEETING_AGENDa.md).
-
-[Successful Software Project Delivery in 10 Steps](https://www.appnovation.com/blog/successful-software-project-delivery-10-steps).
-
-💡 How a project starts is indicative of how it will end.
-
-## Teamwork
-
-The most important aspect of this project is the ability to work in a team. No matter your contribution to the project, you should understand the **FULL** codebase. This will require that you
-
-- **Review** each other's code.
-- **Ask** questions when you don't understand.
-- **Comment** your code extensively. _Always go for clarity over brevity._
-- **Communicate** with your team.
-
-## Updating GitHub
-
-See the [Step by Step Document](https://docs.google.com/document/d/1Txc02kMSnTjyOWFj3HDXc5y5tSurt3AFJGpXZKxvX6A/edit?usp=sharing)
-
-## Project Guidelines
-
-You can see the guidelines [here](./__documentation/PROJECT.md)
-
-## Presentation
-
-Your team will have to present the final product on the final day in order to get a passing grade. Who will draw the short straw?
-
-- The presentation shouldn't be more than 5 mintues long.
+[![Picture7.png](https://i.postimg.cc/Qd3Cj9Q7/Picture7.png)](https://postimg.cc/gngmD0Bc)
